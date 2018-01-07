@@ -22,8 +22,8 @@ void loop() {
   delay(500);
 }
 
-int convertToC(int ditigalOutputDie) {
-  ditigalOutputDie >>= 2;
-  ditigalOutputDie /= 32;
-  return ditigalOutputDie;
+int convertToC(int digitalOutputDie) {
+  digitalOutputDie >>= 2;
+  digitalOutputDie /= 32;
+  return digitalOutputDie;
 }
